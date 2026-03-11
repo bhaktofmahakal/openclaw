@@ -6,6 +6,7 @@ Welcome to the lobster tank! 🦞
 
 - **GitHub:** https://github.com/openclaw/openclaw
 - **Vision:** [`VISION.md`](VISION.md)
+- **Code of Conduct:** [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 - **Discord:** https://discord.gg/qkhbAGHRBT
 - **X/Twitter:** [@steipete](https://x.com/steipete) / [@openclaw](https://x.com/openclaw)
 
@@ -92,6 +93,14 @@ Welcome to the lobster tank! 🦞
 - Describe what & why
 - Reply to or resolve bot review conversations you addressed before asking for review again
 - **Include screenshots** — one showing the problem/before, one showing the fix/after (for UI or visual changes)
+
+## Branching & commit conventions
+
+- Branch from `main` and keep branches focused on a single change or subsystem.
+- Rebase or merge the latest `main` before asking for final review if your branch has drifted.
+- Keep commit messages concise and action-oriented (for example: `CLI: add verbose flag to send`).
+- Prefer small, reviewable commits over one large mixed commit history.
+- Keep PR titles/descriptions explicit about the user-visible problem and the scope boundary.
 
 ## Review Conversations Are Author-Owned
 
