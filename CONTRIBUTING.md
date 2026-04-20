@@ -6,6 +6,7 @@ Welcome to the lobster tank! 🦞
 
 - **GitHub:** https://github.com/openclaw/openclaw
 - **Vision:** [`VISION.md`](VISION.md)
+- **Code of Conduct:** [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 - **Discord:** https://discord.gg/qkhbAGHRBT
 - **X/Twitter:** [@steipete](https://x.com/steipete) / [@openclaw](https://x.com/openclaw)
 
@@ -119,6 +120,14 @@ For coordinated change sets that genuinely need more than 10 PRs, join the **#cl
 - **Include screenshots** — one showing the problem/before, one showing the fix/after (for UI or visual changes)
 - Use American English spelling and grammar in code, comments, docs, and UI strings
 - Do not edit files covered by `CODEOWNERS` security ownership unless a listed owner explicitly asked for the change or is already reviewing it with you. Treat those paths as restricted review surfaces, not opportunistic cleanup targets.
+
+## Branching & commit conventions
+
+- Branch from `main` and keep branches focused on a single change or subsystem.
+- Rebase or merge the latest `main` before asking for final review if your branch has drifted.
+- Keep commit messages concise and action-oriented (for example: `CLI: add verbose flag to send`).
+- Prefer small, reviewable commits over one large mixed commit history.
+- Keep PR titles/descriptions explicit about the user-visible problem and the scope boundary.
 
 ## Review Conversations Are Author-Owned
 
